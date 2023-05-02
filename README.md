@@ -6,7 +6,7 @@
 * Values: Case Number (COUNTA)
 * Rows: Injury Severity and At-Fault Party
 
- !['pivottable','1'](/images/pivottable1.png)
+ ![pt1](/images/pivottable1.png)
 
 3. Insert Pivot Table 2
 * Values: Case Number (COUNTA)
