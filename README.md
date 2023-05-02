@@ -28,13 +28,21 @@
 * Rows: Collision Type then At-Fault Party
 * Copy and paste pivot table 4 into sheet 4
 
+ ![pivottable4](/PivotTable4.png)
+
 6. Insert Pivot Table 5
 * Values: Case Number (COUNTA)
 * Rows: Collision Type then Injury Severity
 * Add calculated field in Column C for cyclist collisions: =C2/$C$12
 
+  ![pivottable5](/PivotTable5.png)
+
+
 7. Insert Pivot Table 6
 * Values: Case NUmber (COUNTA)
 * Rows: Primary Collision Factor
  * Copy and paste pivot table 6 into sheet 5 to use for Datawrapper
+
+   ![pivottable6](/PivotTable6.png)
+
 
