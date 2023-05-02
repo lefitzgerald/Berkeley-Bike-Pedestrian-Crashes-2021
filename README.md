@@ -6,14 +6,14 @@
 * Values: Case Number (COUNTA)
 * Rows: Injury Severity and At-Fault Party
 
- ![pt1](/images/pivottable1.png)
+ ![pivottable1](/pivottable1.png)
 
 3. Insert Pivot Table 2
 * Values: Case Number (COUNTA)
 * Rows: At-Fault Party
 * Add Calculated Field in Column C: =B2/$B$10 and autofill
 
-!['pivottable','2'](/images/pivottable2.png)
+![pivottable2](/pivottable2.png)
 
 4. Insert Pivot Table 3
 * Values: Case Number (COUNTA)
@@ -21,7 +21,7 @@
 * Copy and paste pivot table 3 into sheet 3 
   * Remove total counts and fill in At-Fault Party for each row to clean for Datawrapper
   
-  !['pivottable','3'](/images/pivottable3.png)
+  ![pivottable3](/pivottable3.png)
   
 5. Insert Pivot Table 4
 * Values: Case Number (COUNTA)
