@@ -113,7 +113,7 @@ Below are the questions I wanted to find the answers to through analyzing this d
 * Rows: At-Fault Party
 * Added a calculated field in column C: =B2/$B$10 and autofill
 
-![PivotTable2CalcField](/PivotTable2CalcField)
+![PivotTable2CalcField](/PivotTable2CalcField.png)
 
 3. Which party was at-fault for the highest number of bicycle collisions?
 * Insert Pivot Table 2
@@ -122,7 +122,7 @@ Below are the questions I wanted to find the answers to through analyzing this d
 * Filter for Collision Type and select Cyclist and Cyclist Pedestrian
 * Answer: Bicycles were at fault for most collisions at 29 and drivers were just after at 24.
 
-![PivotTable2](/PivotTable2.png)
+![PivotTable4New](/PivotTable4New.png)
 
 4. What was the percentage breakdown of injury severity among collisions involving a cyclist?
 * Insert Pivot Table 5
