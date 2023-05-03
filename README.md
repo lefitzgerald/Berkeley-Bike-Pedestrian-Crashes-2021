@@ -26,7 +26,7 @@ The Berkeley Police Department's data indicates that cars are not always to blam
 
 “I only ride my bike on trails. I never would do it on the street ever,” Rush said. “But if it was protected, specifically just for bikes, then yeah. I would do that and I would do that with my son.”
 
-Out of the 83 collisions involving a cyclist, 76% (68 incidents) resulted in moderate injuries (while 21.7% (18 incidents) resulted in serious injuries. There were no fatalities among cyclists in 2021, but there were five pedestrians that died due to collision incidents that involved a vehicle. Pedestrians and cyclists may have the right of way, yet that does not end up being enough protection for many choosing to travel by bike or on foot. This is the very fear that has led many Berkeley bikers to advocate for protected bike lanes to physically separate vehicle and pedestrian traffic. 
+Out of the 83 collisions involving only cyclists, 76% (68 incidents) resulted in moderate injuries (while 21.7% (18 incidents) resulted in serious injuries. There were no fatalities among cyclists in 2021, but there were five pedestrians that died due to collision incidents that involved a vehicle. Pedestrians and cyclists may have the right of way, yet that does not end up being enough protection for many choosing to travel by bike or on foot. This is the very fear that has led many Berkeley bikers to advocate for protected bike lanes to physically separate vehicle and pedestrian traffic. 
 
 ![DataViz3](/DataViz3.png)
 
@@ -36,8 +36,7 @@ The Berkeley Police Department has noted the need for bicycle safety awareness a
 
 The question that remains is whether BPD’s action and outreach efforts are enough for Berkeley bikers who are advocating for protected bike lanes, like the lane proposed for Hopkins Street.
 
-Just as the data illustrated above sheds light on literal collisions between bicycles and cars in the Berkeley area, the debate around the Hopkins bike lane proposal has come to represent  the collision between two different visions for safer, more accessible city streets.
-
+Ultimately, these collision incidents have sparked a larger collision throughout the North Berkeley Neighborhood – a collision between two different visions for safer, more accessible city streets.
 
 
 
@@ -118,7 +117,7 @@ Below are the questions I wanted to find the answers to through analyzing this d
 * Filter for Collision Type and select Cyclist and Cyclist Pedestrian
 * Answer: Bicycles were at fault for most collisions at 29 and drivers were just after at 24.
 
-4. What was the percentage breakdown of injury severity among cyclist collisions?
+4. What was the percentage breakdown of injury severity among collisions involving a cyclist?
 * Insert Pivot Table 5
 * Values: Case Number (COUNTA)
 * Rows: Collision Type then Injury Severity
