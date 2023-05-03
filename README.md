@@ -26,7 +26,7 @@ The Berkeley Police Department's data indicates that cars are not always to blam
 
 “I only ride my bike on trails. I never would do it on the street ever,” Rush said. “But if it was protected, specifically just for bikes, then yeah. I would do that and I would do that with my son.”
 
-Out of the 83 collisions involving only cyclists, 76% (68 incidents) resulted in moderate injuries (while 21.7% (18 incidents) resulted in serious injuries. There were no fatalities among cyclists in 2021, but there were five pedestrians that died due to collision incidents that involved a vehicle. Pedestrians and cyclists may have the right of way, yet that does not end up being enough protection for many choosing to travel by bike or on foot. This is the very fear that has led many Berkeley bikers to advocate for protected bike lanes to physically separate vehicle and pedestrian traffic. 
+Out of the 83 collisions involving only cyclists, 76% (68 incidents) resulted in moderate injuries while 21.7% (18 incidents) resulted in serious injuries. There were no fatalities among cyclists in 2021, but there were five pedestrians that died due to collision incidents that involved a vehicle. Pedestrians and cyclists may have the right of way, yet that does not end up being enough protection for many choosing to travel by bike or on foot. This is the very fear that has led many Berkeley bikers to advocate for protected bike lanes to physically separate vehicle and pedestrian traffic. 
 
 ![DataViz3](/DataViz3.png)
 
