@@ -17,10 +17,12 @@ Some city officials and representatives have pointed out that bicycle and pedest
 During 2021, there were 141 collisions involving either a bicycle or pedestrian. 84 of them involved a bicycle in some manner. When it comes to who was to blame for these collisions, BDP’s data indicates that it was fairly even between cyclists and drivers.
 
 ![DataViz1](/DataViz1.png)
+*Data Visualization can be found [here](https://www.datawrapper.de/_/ISkVt/).*
 
 And the cause for these collisions? Unsafe speed was most frequently the primary collision factor for crashes involving a cyclist. That was the case for when drivers and also when bicycles were the party at fault for the collision.
 
 ![DataViz2](/DataViz2.png)
+*Data Visualization can be found [here](https://www.datawrapper.de/_/wOCvU/).*
 
 The Berkeley Police Department's data indicates that cars are not always to blame for collisions involving cars and bicycles. But many cyclists are still hesitant to ride in vehicle traffic. Benicia Rush is no different.
 
@@ -29,6 +31,7 @@ The Berkeley Police Department's data indicates that cars are not always to blam
 Out of the 83 collisions involving only cyclists, 76% (68 incidents) resulted in moderate injuries while 21.7% (18 incidents) resulted in serious injuries. There were no fatalities among cyclists in 2021, but there were five pedestrians that died due to collision incidents that involved a vehicle. Pedestrians and cyclists may have the right of way, yet that does not end up being enough protection for many choosing to travel by bike or on foot. This is the very fear that has led many Berkeley bikers to advocate for protected bike lanes to physically separate vehicle and pedestrian traffic. 
 
 ![DataViz3](/DataViz3.png)
+*Data Visualization can be found [here](https://www.datawrapper.de/_/sv7xc/).*
 
 The Berkeley Police Department has noted the need for bicycle safety awareness among the city’s busy streets. Sergeant Andrew Frankel in BDP’s Traffic Bureau pointed out that the month of May in the city of Berkeley is Bicycle Safety Awareness Month and was established by a grant from the California Office of Traffic Safety. 
 
@@ -102,13 +105,15 @@ Below are the questions I wanted to find the answers to through analyzing this d
 * Rows: At-Fault Party
 * Answer: Drivers were responsible for 72 of the collisions.
 
+![pivottable1](/PivotTable1.png)
+
 2. What percent of the total collisions did each at-fault party account for?
 * Insert Pivot Table 2
 * Values: Case Number (COUNTA)
 * Rows: At-Fault Party
 * Added a calculated field in column C: =B2/$B$10 and autofill
 
-![PivotTable2CalcField}(/PivotTable2CalcField.png)
+![PivotTable2CalcField](/PivotTable2CalcField)
 
 3. Which party was at-fault for the highest number of bicycle collisions?
 * Insert Pivot Table 2
@@ -116,6 +121,8 @@ Below are the questions I wanted to find the answers to through analyzing this d
 * Rows: Collision Type then At-Fault Party
 * Filter for Collision Type and select Cyclist and Cyclist Pedestrian
 * Answer: Bicycles were at fault for most collisions at 29 and drivers were just after at 24.
+
+![PivotTable2](/PivotTable2.png)
 
 4. What was the percentage breakdown of injury severity among collisions involving a cyclist?
 * Insert Pivot Table 5
