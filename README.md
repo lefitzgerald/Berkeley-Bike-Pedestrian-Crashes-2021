@@ -16,13 +16,13 @@ Some city officials and representatives have pointed out that bicycle and pedest
 
 During 2021, there were 141 collisions involving either a bicycle or pedestrian. 84 of them involved a bicycle in some manner. When it comes to who was to blame for these collisions, BDP’s data indicates that it was fairly even between cyclists and drivers.
 
-https://www.datawrapper.de/_/LvOC2/
+![DataViz1](https://www.datawrapper.de/_/LvOC2/)
 
 And the cause for these collisions? Unsafe speed was most frequently the primary collision factor for crashes involving a cyclist. That was the case for when drivers and also when bicycles were the party at fault for the collision.
 
-https://www.datawrapper.de/_/wOCvU/
+![DataViz2](https://datawrapper.dwcdn.net/wOCvU/1/)
 
-The BCP’s data indicates that cars are not always to blame for collisions involving cars and bicycles. But many cyclists are still hesitant to ride in vehicle traffic. Benicia Rush is no different.
+The Berkeley Police Department's data indicates that cars are not always to blame for collisions involving cars and bicycles. But many cyclists are still hesitant to ride in vehicle traffic. Benicia Rush is no different.
 
 “I only ride my bike on trails. I never would do it on the street ever,” Rush said. “But if it was protected, specifically just for bikes, then yeah. I would do that and I would do that with my son.”
 
@@ -41,10 +41,9 @@ Just as the data illustrated above sheds light on literal collisions between bic
 
 
 
-
-# Berkeley-Bike-Pedestrian-Crashes-2021
-## Data Diary
-### Steps
+#Data Diary
+For this analysis, I used a dataset from the Berkeley Police Department that recorded bicycle and pedestrian collision data from the year of 2021. The dataset was clean enough to navigate, but additional cleaning was needed for some of my pivot tables to be able to use for Datawrapper.
+##Steps
 1. Bold top row and freeze
 2. Insert Pivot Table 1
 * Values: Case Number (COUNTA)
