@@ -33,9 +33,9 @@
 6. Insert Pivot Table 5
 * Values: Case Number (COUNTA)
 * Rows: Collision Type then Injury Severity
-* Add calculated field in Column C for cyclist collisions: =C2/$C$12
+* Add calculated field in Column C for cyclist collisions: =C2/$C$5
 
-  ![pivottable5](/PivotTable5.png)
+  ![pivottable5](/PivotTable5New.png)
 
 
 7. Insert Pivot Table 6
