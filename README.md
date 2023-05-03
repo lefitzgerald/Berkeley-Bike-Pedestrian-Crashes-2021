@@ -16,11 +16,11 @@ Some city officials and representatives have pointed out that bicycle and pedest
 
 During 2021, there were 141 collisions involving either a bicycle or pedestrian. 84 of them involved a bicycle in some manner. When it comes to who was to blame for these collisions, BDP’s data indicates that it was fairly even between cyclists and drivers.
 
-![DataViz1](https://www.datawrapper.de/_/LvOC2/)
+![DataViz1](/DataViz1.png)
 
 And the cause for these collisions? Unsafe speed was most frequently the primary collision factor for crashes involving a cyclist. That was the case for when drivers and also when bicycles were the party at fault for the collision.
 
-![DataViz2](https://datawrapper.dwcdn.net/wOCvU/1/)
+![DataViz2](/DataViz2.png)
 
 The Berkeley Police Department's data indicates that cars are not always to blame for collisions involving cars and bicycles. But many cyclists are still hesitant to ride in vehicle traffic. Benicia Rush is no different.
 
@@ -28,7 +28,7 @@ The Berkeley Police Department's data indicates that cars are not always to blam
 
 Out of the 83 collisions involving a cyclist, 76% (68 incidents) resulted in moderate injuries (while 21.7% (18 incidents) resulted in serious injuries. There were no fatalities among cyclists in 2021, but there were five pedestrians that died due to collision incidents that involved a vehicle. Pedestrians and cyclists may have the right of way, yet that does not end up being enough protection for many choosing to travel by bike or on foot. This is the very fear that has led many Berkeley bikers to advocate for protected bike lanes to physically separate vehicle and pedestrian traffic. 
 
-https://www.datawrapper.de/_/sv7xc/
+![DataViz3](/DataViz3.png)
 
 The Berkeley Police Department has noted the need for bicycle safety awareness among the city’s busy streets. Sergeant Andrew Frankel in BDP’s Traffic Bureau pointed out that the month of May in the city of Berkeley is Bicycle Safety Awareness Month and was established by a grant from the California Office of Traffic Safety. 
 
@@ -41,10 +41,15 @@ Just as the data illustrated above sheds light on literal collisions between bic
 
 
 
-#Data Diary
+# Data Diary
 For this analysis, I used a dataset from the Berkeley Police Department that recorded bicycle and pedestrian collision data from the year of 2021. The dataset was clean enough to navigate, but additional cleaning was needed for some of my pivot tables to be able to use for Datawrapper.
-##Steps
-1. Bold top row and freeze
+
+The dataset can be found [here](https://docs.google.com/spreadsheets/d/1wBPPXiK7Yy3wy6nJjMjYMdD53qjNght6xrtfgTDt3uU/edit#gid=611374916).
+
+## Steps
+These are the steps I completed the familiarize myself with the dataset. If you follow the link above, you will find my pivot tables and sheets there in addition to the photos below.
+
+1. Bold top row and freeze on Sheet 1
 2. Insert Pivot Table 1
 * Values: Case Number (COUNTA)
 * Rows: Injury Severity and At-Fault Party
@@ -82,10 +87,52 @@ For this analysis, I used a dataset from the Berkeley Police Department that rec
 
 
 7. Insert Pivot Table 6
-* Values: Case NUmber (COUNTA)
+* Values: Case Number (COUNTA)
 * Rows: Primary Collision Factor
+* Filter for Collision Type: Select Cyclist and Cyclist Pedestrian
  * Copy and paste pivot table 6 into sheet 5 to use for Datawrapper
 
-   ![pivottable6](/PivotTable6.png)
+   ![pivottable6new](/PivotTable6New.png)
+   
+## Questions for Dataset
+Below are the questions I wanted to find the answers to through analyzing this dataset and how I went about finding them.
+
+1. Which party was at-fault for the most collision incidents in 2021?
+* Insert Pivot Table 2
+* Values: Case Number (COUNTA)
+* Rows: At-Fault Party
+* Answer: Drivers were responsible for 72 of the collisions.
+
+2. What percent of the total collisions did each at-fault party account for?
+* Insert Pivot Table 2
+* Values: Case Number (COUNTA)
+* Rows: At-Fault Party
+* Added a calculated field in column C: =B2/$B$10 and autofill
+
+![PivotTable2CalcField}(/PivotTable2CalcField.png)
+
+3. Which party was at-fault for the highest number of bicycle collisions?
+* Insert Pivot Table 2
+* Values: Case Number (COUNTA)
+* Rows: Collision Type then At-Fault Party
+* Filter for Collision Type and select Cyclist and Cyclist Pedestrian
+* Answer: Bicycles were at fault for most collisions at 29 and drivers were just after at 24.
+
+4. What was the percentage breakdown of injury severity among cyclist collisions?
+* Insert Pivot Table 5
+* Values: Case Number (COUNTA)
+* Rows: Collision Type then Injury Severity
+* Add calculated field in Column C for cyclist collisions: =C2/$C$5
+
+![PivotTable5](/PivotTable5New.png)
+
+5. What was the primary collision factor for the collisions involving cyclists?
+* Insert Pivot Table 6
+* Values: Case Number (COUNTA)
+* Rows: Primary Collision Factor
+* Filter for Collision Type: Select Cyclist and Cyclist Pedestrian
+
+![PivotTable6New](/PivotTable6New.png)
+
 
 
