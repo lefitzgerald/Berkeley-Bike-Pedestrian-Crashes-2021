@@ -47,6 +47,7 @@ Ultimately, these collision incidents have sparked a larger collision throughout
 For this analysis, I used a dataset from the Berkeley Police Department that recorded bicycle and pedestrian collision data from the year of 2021. The dataset was clean enough to navigate, but additional cleaning was needed for some of my pivot tables to be able to use for Datawrapper.
 
 The dataset can be found [here](https://docs.google.com/spreadsheets/d/1wBPPXiK7Yy3wy6nJjMjYMdD53qjNght6xrtfgTDt3uU/edit#gid=611374916).
+The city of Berkeley redid their entire website in 2021, so the original raw data is no available online. 
 
 ## Steps
 These are the steps I completed the familiarize myself with the dataset. If you follow the link above, you will find my pivot tables and sheets there in addition to the photos below.
