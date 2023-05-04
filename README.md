@@ -44,7 +44,7 @@ Ultimately, these collision incidents have sparked a larger collision throughout
 
 
 # Data Diary
-For this analysis, I used a dataset from the Berkeley Police Department that recorded bicycle and pedestrian collision data from the year of 2021. The dataset was clean enough to navigate, but additional cleaning was needed for some of my pivot tables to be able to use for Datawrapper.
+For this analysis, I analyzed data collected by the Berkeley Police Department that recorded bicycle and pedestrian collision data from the year of 2021. This particular spreadsheet was edited by Berkeleyside to only include bicycle and pedestrian collisions, which is what I was interested in learning more about. The dataset was clean enough to navigate, but additional cleaning was needed for some of my pivot tables to be able to use for Datawrapper.
 
 The dataset can be found [here](https://docs.google.com/spreadsheets/d/1wBPPXiK7Yy3wy6nJjMjYMdD53qjNght6xrtfgTDt3uU/edit#gid=611374916).
 The city of Berkeley redid their entire website in 2021, so the original raw data is no available online. 
